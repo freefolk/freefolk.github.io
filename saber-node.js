@@ -1,5 +1,6 @@
 exports.getDocumentData = documentData => {
-  // We don't need JS for now
-  documentData.bodyScript = ''
+  if (process.env.NODE_ENV === 'production') {
+    documentData.bodyScript = ''
+  }
   return documentData
 }
