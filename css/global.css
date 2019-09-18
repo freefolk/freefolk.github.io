@@ -1,0 +1,18 @@
+body {
+  font-family: "Noto Sans TC", Helvetica, sans-serif;
+  font-size: 1.6rem;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+details >:not(summary) {
+  font-size: .8em
+}
+
+a {
+  text-decoration: none;
+}
