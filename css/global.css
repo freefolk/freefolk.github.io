@@ -1,7 +1,16 @@
+:root {
+  --header-height: 60px;
+}
+
+html {
+  font-size: 20px;
+}
+
 body {
-  font-family: "Noto Sans TC", Helvetica, sans-serif;
-  font-size: 1.6rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   margin: 0;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
 }
 
 .container {
@@ -16,4 +25,11 @@ details >:not(summary) {
 
 a {
   text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
 }
