@@ -9,12 +9,6 @@ export default ({ setHead }) => {
           name: 'description',
           content: vm.$siteConfig.description
         }
-      ],
-      link: [
-        {
-          href: 'https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap',
-          rel: 'stylesheet'
-        }
       ]
     }
   })
