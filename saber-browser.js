@@ -3,7 +3,7 @@ import './css/global.css'
 export default ({ setHead }) => {
   setHead(vm => {
     return {
-      title: `${vm.$siteConfig.title} Studio`,
+      title: `Freefolk Software`,
       meta: [
         {
           name: 'description',
