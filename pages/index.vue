@@ -40,8 +40,7 @@ export default Vue.extend({
       products: [
         {
           title: 'Evergarden',
-          tagline:
-            'UI Framework for building ambitious products on the web,<br>built with Vue.',
+          tagline: 'A design system for Vue.js',
           description: '',
           titleColor: '#37a065'
         }
